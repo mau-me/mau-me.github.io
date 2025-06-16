@@ -1,8 +1,8 @@
 baseURL = "https://mau-me.github.io/maume_page/"
 title = "Maume"
 theme = "hugo-coder"
-languageCode = "en"
-defaultContentLanguage = "en"
+languageCode = "pt-br"
+defaultContentLanguage = "pt-br"
 paginate = 20
 enableEmoji = true
 
@@ -152,7 +152,7 @@ weight = 6
 url = "https://medium.com/@mauriciosm95"
 
 [languages.en]
-languageName = ":uk:"
+languageName = "English"
 
 [[languages.en.menu.main]]
 name = "About"
@@ -172,7 +172,7 @@ url = "about/"
 [[languages.en.menu.main]]
 name = "Resume"
 weight = 4
-url = "https://github.com/mau-me/_curriculo/raw/main/cv.pdf"
+url = "https://raw.githubusercontent.com/mau-me/maume_curriculo/main/cv.pdf"
 
 [[languages.en.menu.main]]
 name = "Contact"
@@ -180,8 +180,8 @@ weight = 5
 url = "contact/"
 
 [languages.pt-br]
-languageName = ":brazil:"
-title = ""
+languageName = "Português"
+title = "Maume"
 
 [languages.pt-br.params]
 author = "Mauricio Menezes"
@@ -207,7 +207,7 @@ url = "about/"
 [[languages.pt-br.menu.main]]
 name = "Currículo"
 weight = 4
-url = "https://github.com/mau-me/_curriculo/raw/main/cv.pdf"
+url = "https://raw.githubusercontent.com/mau-me/maume_curriculo/main/cv.pdf"
 
 [[languages.pt-br.menu.main]]
 name = "Contato"
