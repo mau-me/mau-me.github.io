@@ -152,7 +152,7 @@ weight = 6
 url = "https://medium.com/@mauriciosm95"
 
 [languages.en]
-languageName = "English"
+languageName = :us:
 
 [[languages.en.menu.main]]
 name = "About"
@@ -180,7 +180,7 @@ weight = 5
 url = "contact/"
 
 [languages.pt-br]
-languageName = "Português"
+languageName = :brazil:
 title = "Maume"
 
 [languages.pt-br.params]
