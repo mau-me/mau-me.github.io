@@ -1,0 +1,100 @@
+/* assets/scss/custom.scss */
+
+.presentations-description {
+  margin-bottom: 4rem;
+  padding: 1.5rem;
+  background-color: #f0f0f0; /* Cor de fundo suave */
+  border-left: 5px solid #1565c0; /* Cor da barra lateral */
+  border-radius: 5px;
+  font-size: 1.7rem;
+  line-height: 1.6;
+}
+
+body.colorscheme-dark {
+  .presentations-description {
+    background-color: #333;
+    border-left-color: #42a5f5;
+  }
+}
+
+.presentations-list {
+  display: grid;
+  /* Define colunas que se ajustam automaticamente, com largura mínima de 250px e máxima de 1fr (distribui o espaço) */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem; /* Espaçamento entre os cartões */
+  list-style: none;
+  padding: 0;
+}
+
+.presentation-item {
+  background-color: #fff; /* Fundo do cartão */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden; /* Garante que a imagem não vaze */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+
+  &:hover {
+    transform: translateY(-5px); /* Efeito de elevação ao passar o mouse */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .presentation-link {
+    display: block; /* Para o link cobrir todo o cartão */
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .presentation-cover {
+    width: 100%;
+    height: 150px; /* Altura fixa para as imagens de capa - REDUZIDO */
+    object-fit: cover; /* Garante que a imagem cubra o espaço sem distorcer */
+    display: block;
+    border-bottom: 1px solid #eee; /* Linha sutil separando a imagem do texto */
+  }
+
+  .presentation-title {
+    font-size: 1.8rem; /* Título um pouco menor para caber melhor */
+    margin: 1rem 1rem 0.5rem; /* Ajuste de margem */
+    color: #212121;
+    min-height: 2.2em; /* Garante altura mínima para 2 linhas de texto */
+    line-height: 1.2;
+  }
+
+  .presentation-description {
+    font-size: 1.4rem; /* Descrição menor */
+    margin: 0.5rem 1rem 1rem; /* Ajuste de margem */
+    color: #555;
+    text-align: justify;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Limita a descrição a 3 linhas */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+body.colorscheme-dark {
+  .presentation-item {
+    background-color: #2a2a2a;
+    border-color: #555;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+    &:hover {
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    }
+
+    .presentation-cover {
+      border-bottom-color: #444; /* Cor da borda em tema escuro */
+    }
+
+    .presentation-title {
+      color: #dadada;
+    }
+
+    .presentation-description {
+      color: #bbb;
+    }
+  }
+}
