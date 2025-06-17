@@ -1,6 +1,6 @@
 +++
-title = "Contato"
+title = "Contact"
 slug = "contact"
 +++
 
-Sinta-se à vontade para entrar em contato. Você pode me encontrar no [LinkedIn](https://www.linkedin.com/in/mau-me/), [Github](<[https://github.com/mau-me](https://github.com/mau-me)>), ou enviar um [email](mailto:mauriciosm95@gmail.com).
+Feel free to get in touch. You can find me on [LinkedIn](https://www.linkedin.com/in/mau-me/), [Github](<[https://github.com/mau-me](https://github.com/mau-me)>), or send me an [email](mailto:mauriciosm95@gmail.com).
