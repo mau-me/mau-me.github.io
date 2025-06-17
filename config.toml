@@ -1,4 +1,4 @@
-baseURL = "https://mau-me.github.io/maume_page/"
+baseURL = "https://maume.tech/"
 title = "Maume"
 theme = "hugo-coder"
 languageCode = "pt-br"
