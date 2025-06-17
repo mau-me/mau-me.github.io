@@ -31,7 +31,7 @@ maxSeeAlsoItems = 5
 # Custom CSS
 customCSS = []
 # Custom SCSS, file path is relative to Hugo's asset folder (default: {your project root}/assets)
-customSCSS = []
+customSCSS = ["scss/custom.scss"]
 
 # Custom JS
 customJS = []
@@ -159,6 +159,11 @@ name = "About"
 weight = 1
 url = "about/"
 
+[[languages.en.menu.main]]
+name = "Presentations"
+weight = 2
+url = "presentations/"
+
 # [[languages.en.menu.main]]
 # name = "Blog"
 # weight = 2
@@ -172,7 +177,7 @@ url = "about/"
 [[languages.en.menu.main]]
 name = "Resume"
 weight = 4
-url = "https://raw.githubusercontent.com/mau-me/maume_curriculo/main/cv.pdf"
+url = "https://raw.githubusercontent.com/mau-me/maume_curriculo/main/cv.en.pdf"
 
 [[languages.en.menu.main]]
 name = "Contact"
@@ -193,6 +198,11 @@ keywords = "blog,desenvolvedor,pessoal"
 name = "Sobre"
 weight = 1
 url = "about/"
+
+[[languages.pt-br.menu.main]]
+name = "Apresentações"
+weight = 2
+url = "apresentacoes/"
 
 # [[languages.pt-br.menu.main]]
 # name = "Blog"
