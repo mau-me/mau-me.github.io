@@ -1,0 +1,32 @@
+{{ define "title" }}
+{{ .Title }} · {{ .Site.Title }}
+{{ end }}
+{{ define "content" }}
+<section class="container list">
+  <header>
+    <h1 class="title">
+      <a class="title-link" href="{{ .Permalink | safeURL }}">
+        {{- if eq .Kind "term" -}}
+        {{- i18n .Data.Plural 1 | title -}}
+        {{- print ": " -}}
+        {{- end -}}
+        {{- i18n (lower .Title) | default .Title | title -}}
+      </a>
+    </h1>
+  </header>
+  <ul class="presentations-list">
+    {{- range .Paginator.Pages -}}
+    <li class="presentation-item">
+      <a href="{{ .Params.externalLink | safeURL }}" target="_blank" rel="noopener" class="presentation-link">
+        {{ with .Params.featuredImage }}
+        <img src="{{ . | relURL }}" alt="{{ $.Title }} cover" class="presentation-cover" />
+        {{ end }}
+        <h2 class="presentation-title">{{ .Title }}</h2>
+        <p class="presentation-description">{{ .Description }}</p>
+      </a>
+    </li>
+    {{- end -}}
+  </ul>
+  {{ partial "pagination.html" . }}
+</section>
+{{ end }}
