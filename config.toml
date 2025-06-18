@@ -120,36 +120,48 @@ name = "LinkedIn"
 icon = "fa fa-2x fa-linkedin"
 weight = 1
 url = "https://www.linkedin.com/in/mau-me/"
+target = "_blank"
+rel = "noopener"
 
 [[params.social]]
 name = "Github"
 icon = "fa fa-2x fa-github"
 weight = 2
 url = "https://github.com/mau-me/"
+target = "_blank"
+rel = "noopener"
 
 [[params.social]]
 name = "Email"
 icon = "fa fa-2x fa-solid fa-at"
 weight = 3
 url = "mailto:mauriciosm95@gmail.com"
+target = "_blank"
+rel = "noopener"
 
 [[params.social]]
 name = "Twitter"
 icon = "fa fa-2x fa-twitter"
 weight = 4
 url = "https://twitter.com/olaf_mau"
+target = "_blank"
+rel = "noopener"
 
 [[params.social]]
 name = "Instagram"
 icon = "fa fa-2x fa-instagram"
 weight = 5
 url = "https://www.instagram.com/olaf_mau/"
+target = "_blank"
+rel = "noopener"
 
 [[params.social]]
 name = "Medium"
 icon = "fa fa-2x fa-medium"
 weight = 6
 url = "https://medium.com/@mauriciosm95"
+target = "_blank"
+rel = "noopener"
 
 [languages.en]
 languageName = ":us:"
@@ -177,7 +189,7 @@ url = "presentations/"
 [[languages.en.menu.main]]
 name = "Resume"
 weight = 4
-url = "https://raw.githubusercontent.com/mau-me/maume_curriculo/main/cv.en.pdf"
+url = "resume/"
 
 [[languages.en.menu.main]]
 name = "Contact"
@@ -217,7 +229,7 @@ url = "apresentacoes/"
 [[languages.pt-br.menu.main]]
 name = "Currículo"
 weight = 4
-url = "https://raw.githubusercontent.com/mau-me/maume_curriculo/main/cv.pdf"
+url = "resume/"
 
 [[languages.pt-br.menu.main]]
 name = "Contato"
