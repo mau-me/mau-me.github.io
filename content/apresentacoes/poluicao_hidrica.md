@@ -1,7 +1,7 @@
 +++
 title = "Poluição Hídrica"
 slug = "poluicao-hidrica"
-date = "2025-11-04"
+date = "2025-11-03"
 description = "Poluição Hídrica e seus Impactos na Saúde Pública"
 featuredImage = "/images/presentations/poluicao_hidrica.png"
 externalLink = "/presentations/poluicao_hidrica.html"

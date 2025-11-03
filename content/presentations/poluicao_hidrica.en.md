@@ -1,7 +1,7 @@
 +++
 title = "Water Pollution"
 slug = "poluicao-hidrica-en"
-date = "2025-11-04"
+date = "2025-11-03"
 description = "Water Pollution and its Impacts on Public Health"
 featuredImage = "/images/presentations/poluicao_hidrica.png"
 externalLink = "/presentations/poluicao_hidrica.html"
